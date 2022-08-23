@@ -1,3 +1,2 @@
 <app-nova-tranferencia (aoTransferir)="transferir($event)"></app-nova-tranferencia>
-<p>Valor:{{transferencia?.valor}}</p>
-<p>Destino:{{transferencia?.destino}}</p>
+<app-extrato [transferencias]="transferencias"></app-extrato>
