@@ -24,13 +24,13 @@ export class NovaTranferenciaComponent implements OnInit {
     console.log('solicitada nova transferência');
     const valorEmitir: Transferencia = {valor: this.valor, destino: this.destino};
 
-    this.service.adicionar(valorEmitir).subscribe((resultado) => {
+    this.service.adicionar(valorEmitir).subscribe({next: (resultado) => {
       console.log(resultado);
       this.limparCampos();
       this.router.navigateByUrl('extrato');
     },
-    (error) => console.error(error)
-    );
+    error: (error) => console.error(error)
+    });
     
     
   }
