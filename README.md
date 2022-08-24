@@ -1,27 +1,26 @@
 # Bytebank
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.3.
+ByteBank é o projeto do primeiro curso da formação Angular da **[Alura](https://cursos.alura.com.br/formacao-angular)**.
 
-## Development server
+Através do curso você passa por todas as funcionalidades de grande importância do framework.(Exemplo: <i>criação de componentes, services, rotas...etc</i>).
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Funcionalidades
 
-## Code scaffolding
+### `Extrato`
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Página principal do projeto onde é mostrado os dados inseridos na Rest Api feita em json e alimentada através da página nova transferência.
 
-## Build
+![](/imagens/extrato.jpg)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### `Nova transferência`
 
-## Running unit tests
+Página para inserção de dados na Rest Api do projeto.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+![](/imagens/transferencia.jpg)
 
-## Running end-to-end tests
+## Considerações finais
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+SPA de layout simples e com o "core" do Angular passando por sua base na facilitação de criação de CRUD.
+O projeto foi ótimo para fortalecer minha base no Angular que é o meu objetivo ao iniciar o estudo na formação, que venha os outros cursos e artigos da formação :D
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<i>“<b>In all forms of strategy, it is necessary to maintain the combat stance in everyday life and to make your everyday stance your combat stance.</b>”</i> (Miyamoto Musashi).
